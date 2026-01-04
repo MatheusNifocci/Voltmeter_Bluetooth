@@ -1,4 +1,6 @@
-#Voltmeter Bluetooth
+
+Voltmeter Bluetooth
+=============================================================
 
 In this project, I use the Esp32 ADC to measure a voltage signal and send the value via an SPP – Serial Port Profile.
 
