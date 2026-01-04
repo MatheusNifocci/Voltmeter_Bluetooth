@@ -1,11 +1,8 @@
-ESP-IDF template app
-====================
+#This is a simple application that uses classic Bluetooth.
+=============================================================
 
-This is a template application to be used with [Espressif IoT Development Framework](https://github.com/espressif/esp-idf).
+In this project, I use the Esp32 ADC to measure a voltage signal and send the value via an SPP – Serial Port Profile.
 
-Please check [ESP-IDF docs](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for getting started instructions.
+In addition, it is possible to save the measured value in an EEPROM memory. This value is used as a limit, when the measurement exceeds the limit, a red LED is triggered.
 
-*Code in this repository is in the Public Domain (or CC0 licensed, at your option.)
-Unless required by applicable law or agreed to in writing, this
-software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
-CONDITIONS OF ANY KIND, either express or implied.*
+You can change the saved value using the BOT button on the ESP32 board.
