@@ -1,4 +1,6 @@
-#This is a simple application that uses classic Bluetooth.
+#Voltmeter Bluetooth
+
+This is a simple application that uses classic Bluetooth.
 =============================================================
 
 In this project, I use the Esp32 ADC to measure a voltage signal and send the value via an SPP – Serial Port Profile.
